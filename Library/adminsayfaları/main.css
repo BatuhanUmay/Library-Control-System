@@ -1,0 +1,151 @@
+*{
+margin:0px;
+font-family: system-ui;
+}
+
+body, html {
+    height: 100%;
+}
+
+.active{
+    display: block !important;
+}
+
+.Container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.Wrapper {
+    display: none;
+    background-color: #11010f6e;
+    padding: 65px;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+}
+
+.Line input {
+    height: 55px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0d6efd;
+    font-weight: 900;
+}
+
+
+
+
+h2.headerForm {
+    text-align: center;
+    color: white;
+}
+
+
+.dipnot {
+    color: white;
+    font-size: 18px;
+    padding-top: 0px;
+    margin-top: -14px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.homeContainer {
+   /* background: url(https://cdn.shopify.com/s/files/1/2656/8500/products/ohpopsi-murals-standard-3-06m-x-2-48m-white-library-bookcase-wall-mural-3207426900011.jpg?v=1522256378);
+    width: 100%;
+    height: 100%;*/
+}
+
+.insideContainer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    border: 5px double;
+    width: 260px;
+    min-width: 200px;
+    text-align: center;
+    padding: 55px 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.titleDiv p{
+    text-transform: uppercase;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400 ;
+}
+
+.imgDiv img {
+    width: 85px;
+}
+
+.block:hover{
+    filter: contrast(110%);
+}
+.block:hover .titleDiv p {
+    font-weight: 600;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    height: 120px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.logoDiv img {
+    width: 540px;
+    margin-top: 7px;
+}
+
+
+.backgroundImage{
+    background: url(assests/background.jpeg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.2;
+}
+
+
+
+
+
+
+
+
